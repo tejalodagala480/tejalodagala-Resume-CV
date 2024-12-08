@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teja Lodagala</title>
+    <style>
+        /* Dynamic CSS */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 20px auto;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .info {
+            margin-bottom: 1.5rem;
+        }
+
+        .info strong {
+            display: block;
+            font-size: 1.2rem;
+        }
+
+        .highlight {
+            color: #007BFF;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Teja Lodagala</h1>
+    </header>
+
+    <main>
+        <div class="info">
+            <strong>Career Objective</strong>
+            <p>To utilize my skills and training effectively while contributing to the organization's success.</p>
+        </div>
+
+        <div class="info">
+            <strong>Education</strong>
+            <ul>
+                <li>B.Tech in Computer Science and Engineering (Data Science), JNTU-GV, 7.9 CGPA</li>
+                <li>Intermediate (MPC), Sri Chaitanya Junior College, 6.63 CGPA</li>
+                <li>SSC, Raghu EM School, 9.2 CGPA</li>
+            </ul>
+        </div>
+
+        <div class="info">
+            <strong>Technical Skills</strong>
+            <ul>
+                <li>Programming: Python, Java</li>
+                <li>Web Development: HTML, CSS, JavaScript, Angular, Node.js</li>
+                <li>Databases: MongoDB, SQL</li>
+                <li>Tools: MS Office</li>
+            </ul>
+        </div>
+
+        <div class="info">
+            <strong>Achievements</strong>
+            <ul>
+                <li>Certified Pega System Architect (v8.8)</li>
+                <li>Completed AWS Cloud Foundations Virtual Internship</li>
+                <li>Completed Google AI Virtual Internship</li>
+            </ul>
+        </div>
+
+        <button class="highlight" onclick="toggleTheme()">Toggle Dark Mode</button>
+    </main>
+
+    <footer>
+        <p>Contact: tejalodagala480@gmail.com | +91 9959353902</p>
+    </footer>
+
+    <script>
+        // Dynamic JavaScript
+        let darkMode = false;
+
+        function toggleTheme() {
+            darkMode = !darkMode;
+            document.body.style.backgroundColor = darkMode ? "#333" : "#f4f4f9";
+            document.body.style.color = darkMode ? "#f4f4f9" : "#333";
+        }
+    </script>
+</body>
+</html>
